@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=League+Spartan:wght@100&family=Montserrat&family=Noto+Serif&family=Poppins:wght@100;200;400&family=Rubik+Vinyl&display=swap');
+
+:root {
+    --primary-dark: #1f2937;
+    --primary-green: #6ee7b7;
+}
+
+body {
+    background-color: var(--primary-dark);
+    color: var(--primary-green);
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5rem;
+    text-decoration: none;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    
+}
+
+input,
+label {
+    display: block;
+    font-style:normal;
+    font-size: 2.5vh;
+   
+}
+
+input {
+    margin-bottom: 0.5rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+#check-number {
+    margin-top: 1rem;
+    margin: auto;
+    display: block;
+    border-radius: 20%;
+    margin-bottom: 20%;
+    font-size: medium;
+}
+
+#check-number:hover {
+    background-color: var(--primary-green);
+    cursor: pointer;
+  
+}
+
+
+
